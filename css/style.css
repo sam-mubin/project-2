@@ -402,7 +402,7 @@ body {
 }
 
 .resources-grid-item-img{
-    background: url(images/Image.png) no-repeat;
+    background: url(images/Image.png) no-repeat center top / cover;
     width: 100%;
     height: 83%;
     position: relative;
@@ -410,7 +410,7 @@ body {
 }
 
 .resources-grid-item-img-1{
-    background: url(images/Image-2.png) no-repeat;
+    background: url(images/Image-2.png) no-repeat center top / cover;
     width: 100%;
     height: 83%;
     position: relative;
@@ -418,7 +418,7 @@ body {
 }
 
 .resources-grid-item-img-2{
-    background: url(images/Image-3.png) no-repeat;
+    background: url(images/Image-3.png) no-repeat center top / cover;
     width: 100%;
     height: 83%;
     position: relative;
@@ -457,7 +457,7 @@ body {
 }
 
 .resources-grid-item-img-3{
-    background: url(images/Image-4.png) no-repeat;
+    background: url(images/Image-4.png) no-repeat center top / cover;
     width: 100%;
     height: 83%;
     position: relative;
@@ -465,7 +465,7 @@ body {
 }
 
 .resources-grid-item-img-4{
-    background: url(images/Image-5.png) no-repeat;
+    background: url(images/Image-5.png) no-repeat center top / cover;
     width: 100%;
     height: 83%;
     position: relative;
@@ -473,7 +473,7 @@ body {
 }
 
 .resources-grid-item-img-5{
-    background: url(images/Image-6.png) no-repeat;
+    background: url(images/Image-6.png) no-repeat center top / cover;
     width: 100%;
     height: 83%;
     position: relative;
@@ -564,12 +564,12 @@ body {
 }
 
 .footer-next-grid-item:nth-child(1){
-    background: url(footer-image/Image-1.png) no-repeat;
+    background: url(footer-image/Image-1.png) no-repeat center top / cover;
     width: 100px;
 }
 
 .footer-next-grid-item-1:nth-child(1){
-    background: url(footer-image/Image.png) no-repeat;
+    background: url(footer-image/Image.png) no-repeat center top / cover;
 }
 
 .footer-next-grid-item p {
