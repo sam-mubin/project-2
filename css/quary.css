@@ -92,7 +92,6 @@
     .testimonials-grid {
         grid-template-columns: repeat(1, 1fr);
         text-align:center
-        
     }
 
     .testimonials-grid-item p {
@@ -100,9 +99,16 @@
     }
 
     .testimonials-grid-item img {
-    margin-left: 50px;
+    margin-left: 0;
     }
 
+    .resources-grid {
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    .resources-next-grid-item {
+    margin-top: 21%;
+}
     .resources-grid-item-img {
     height: 62%;
     }
@@ -110,18 +116,19 @@
     height: 62%;
     }
     .resources-grid-item-img-2 {
-    height: 62%;
+    height: 50%;
+    margin-top: 122px;
     }
     .resources-grid-item-img-3 {
     margin-top:50px;
-    height: 62%;
+    height: 66%;
     }
     .resources-grid-item-img-4 {
-     margin-top:50px;
+     margin-top: 85px;
      height: 62%;
     }
     .resources-grid-item-img-5 {
-     margin-top:50px;
+     margin-top: 85px;
      height: 62%;
     }
 
