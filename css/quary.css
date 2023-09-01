@@ -3,7 +3,27 @@
         max-width: 100%;
         padding: 0 1.5%;
     }
+
+    .mainmenu li a {
+        padding: 0px 9px;
+    }
+
+    .btn.secondary-btn {
+    padding: 0;
+    margin-top: 4px;
+    margin-left: 4px;
+    font-size:8px
 }
+
+    .btn {
+        display: inline-block;
+        margin-left: px;
+        margin-top: 0;
+    }
+
+}
+
+
 
 @media screen and (max-width:1024px){
     .nav-grid {
@@ -19,7 +39,7 @@
     }
 
     .mainmenu li a {
-        padding: 0px 5px;
+        padding: 0px 10px;
     }
    
     .hero-grid {
@@ -62,7 +82,7 @@
 
 
     .benefits-grid{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .benefits-grid-item p {
@@ -157,7 +177,7 @@
     }
     .nav-grid {
         grid-template-columns: 1fr 5fr;
-        font-size: 10px;
+        font-size: 9px;
     }
     .logo {
         margin-top: 0px;
@@ -193,7 +213,7 @@
     }
 
     .btn {
-        margin-left: 22px;
+        margin-left: 2px;
         margin-top: 0;
     }
 
@@ -203,9 +223,14 @@
     }
 
     .btn.secondary-btn {
-        font-size: 10px;
+        font-size: 8px;
         padding: 0;
     }
+    
+    .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+    }
+
 
     .features-grid {
         grid-template-columns: 1fr;
@@ -236,7 +261,7 @@
     }
 
     .testimonials-grid-item{
-        width:500px;
+        width: 500px;
         margin:auto
     }
 
@@ -325,6 +350,10 @@
     .btn.primary-btn {
         font-size: 8px;
     }
+
+    .benefits-grid {
+    grid-template-columns: repeat(1, 1fr);
+    }
     .benefits-grid-item .content {
         text-align: center;
     }
@@ -346,11 +375,15 @@
     .next-grid {
     grid-template-columns: repeat(4, 1fr);
     padding: 0;
-    margin-left: -9%;
+    margin-left: -11%;
     }
 
     .testimonials-grid {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimonials-grid-item {
+    width: 100%
     }
 
        .resources-grid-item-img {
