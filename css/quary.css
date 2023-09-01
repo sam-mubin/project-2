@@ -23,7 +23,7 @@
     }
    
     .hero-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         text-align: center;
         gap:6rem;
     }
@@ -61,12 +61,12 @@
     }
 
 
-    .benefits-grid,{
-        grid-template-columns: repeat(3, 1fr);
+    .benefits-grid{
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .features-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         text-align: center;
     }
 
@@ -75,13 +75,14 @@
     }
 
     .integrations-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         text-align: center;
     }
 
     .next-grid {
         grid-template-columns: repeat(4, 1fr);
         padding: 0;
+       margin-left:20%
     }
 
     .next-grid-item {
@@ -89,7 +90,47 @@
     }
 
     .testimonials-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        text-align:center
+        
+    }
+
+    .testimonials-grid-item p {
+        margin: auto;
+    }
+
+    .testimonials-grid-item img {
+    margin-left: 50px;
+    }
+
+    .resources-grid-item-img {
+    height: 62%;
+    }
+    .resources-grid-item-img-1 {
+    height: 62%;
+    }
+    .resources-grid-item-img-2 {
+    height: 62%;
+    }
+    .resources-grid-item-img-3 {
+    margin-top:50px;
+    height: 62%;
+    }
+    .resources-grid-item-img-4 {
+     margin-top:50px;
+     height: 62%;
+    }
+    .resources-grid-item-img-5 {
+     margin-top:50px;
+     height: 62%;
+    }
+
+    .resources-grid-item-content h4 {
+        font-size:15px
+    }
+    .resources-grid-item-content a {
+    font-size: 15px;
+    height: 62%;
     }
 
     .section-title h2 {
