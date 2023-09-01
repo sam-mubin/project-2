@@ -65,6 +65,10 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .benefits-grid-item p {
+        margin:auto
+    }
+
     .features-grid {
         grid-template-columns: 1fr;
         text-align: center;
@@ -189,8 +193,6 @@
     }
 
     .btn {
-        display: inline-block;
-        background: #fff;
         margin-left: 22px;
         margin-top: 0;
     }
@@ -203,11 +205,6 @@
     .btn.secondary-btn {
         font-size: 10px;
         padding: 0;
-    }
-
-
-    .benefits-grid{
-        grid-template-columns: repeat(1, 1fr);
     }
 
     .features-grid {
@@ -227,7 +224,6 @@
     .next-grid {
         grid-template-columns: repeat(4, 1fr);
         padding: 0;
-        margin-left: -9%;
     }
 
     .next-grid-item {
@@ -237,6 +233,11 @@
     .testimonials-grid {
         grid-template-columns: repeat(1, 1fr);
         text-align:center
+    }
+
+    .testimonials-grid-item{
+        width:500px;
+        margin:auto
     }
 
     .testimonials-grid-item p {
@@ -255,26 +256,26 @@
     margin-top: 21%;
 }
     .resources-grid-item-img {
-    height: 34%;
+    height: 83%;
     }
     .resources-grid-item-img-1 {
-    height: 34%;
+    height: 83%;
     }
     .resources-grid-item-img-2 {
-    height: 26%;
-    margin-top: 86px;
+    margin-top: 145px;
+    height: 56%;
     }
     .resources-grid-item-img-3 {
-    margin-top: 48px;
-    height: 29%;
+    margin-top: 75px;
+    height: 71%;
     }
     .resources-grid-item-img-4 {
-     margin-top: 50px;
-     height: 30%;
+     margin-top: 109px;
+     height: 60%;
     }
     .resources-grid-item-img-5 {
-     margin-top: 49px;
-     height: 30%;
+     margin-top: 109px;
+    height: 60%;
     }
 
     .resources-grid-item-content h4 {
@@ -324,16 +325,19 @@
     .btn.primary-btn {
         font-size: 8px;
     }
-
-    .benefits-grid{
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-   
-
-    .benefits-grid .content {
+    .benefits-grid-item .content {
         text-align: center;
     }
+
+    .benefits-grid-item .content h4 {
+    margin-left:0;
+    }
+
+    .benefits-grid-item .content p {
+    margin: auto;
+    }
+
+    
 
     .features-grid-item {
         width: 375px;
